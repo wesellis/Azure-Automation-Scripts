@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Monitor Batch Account script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AccountName`n)`n`nGet-AzBatchAccount -ResourceGroupName $ResourceGroupName -Name $AccountName

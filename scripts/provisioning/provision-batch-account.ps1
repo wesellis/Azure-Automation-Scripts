@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an Azure Batch Account`n`nparam (`n[string]$ResourceGroupName,`n[string]$AccountName,`n[string]$Location`n)`n`nNew-AzBatchAccount -ResourceGroupName $ResourceGroupName -Name $AccountName -Location $Location

@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Manage Load Balancer script`n`nparam (`n[string]$ResourceGroupName,`n[string]$BalancerName`n)`n`nGet-AzLoadBalancer -ResourceGroupName $ResourceGroupName -Name $BalancerName

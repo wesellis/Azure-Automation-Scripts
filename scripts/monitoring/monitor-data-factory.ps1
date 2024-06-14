@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Monitor Data Factory script`n`nparam (`n[string]$ResourceGroupName,`n[string]$FactoryName`n)`n`nGet-AzDataFactoryV2PipelineRun -ResourceGroupName $ResourceGroupName -DataFactoryName $FactoryName
