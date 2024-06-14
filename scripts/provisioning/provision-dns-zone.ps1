@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an Azure DNS Zone`n`nparam (`n[string]$ResourceGroupName,`n[string]$ZoneName`n)`n`nNew-AzDnsZone -ResourceGroupName $ResourceGroupName -Name $ZoneName

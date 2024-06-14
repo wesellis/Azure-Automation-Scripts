@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Clear Storage Blob script`n`nparam (`n[string]$ResourceGroupName,`n[string]$StorageAccountName,`n[string]$ContainerName`n)`n`nRemove-AzStorageBlob -ResourceGroupName $ResourceGroupName -StorageAccountName $StorageAccountName -ContainerName $ContainerName -Force

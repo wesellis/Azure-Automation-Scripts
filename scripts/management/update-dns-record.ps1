@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Update DNS Record script`n`nparam (`n[string]$ResourceGroupName,`n[string]$ZoneName,`n[string]$RecordSetName,`n[string]$RecordType,`n[string]$TTL,`n[string]$RecordValue`n)`n`nSet-AzDnsRecordSet -ResourceGroupName $ResourceGroupName -ZoneName $ZoneName -RecordSetName $RecordSetName -RecordType $RecordType -TTL $TTL -DnsRecords $RecordValue
