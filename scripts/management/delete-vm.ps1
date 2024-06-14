@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Delete VM script`n`nparam (`n[string]$ResourceGroupName,`n[string]$VmName`n)`n`nRemove-AzVM -ResourceGroupName $ResourceGroupName -Name $VmName -Force

@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an Azure Cosmos DB Account`n`nparam (`n[string]$ResourceGroupName,`n[string]$AccountName,`n[string]$Location`n)`n`nNew-AzCosmosDBAccount -ResourceGroupName $ResourceGroupName -Name $AccountName -Location $Location -DefaultConsistencyLevel "Session" -Kind "GlobalDocumentDB"

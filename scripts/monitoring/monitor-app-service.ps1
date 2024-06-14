@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Monitor App Service script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName`n)`n`nGet-AzWebApp -ResourceGroupName $ResourceGroupName -Name $AppName
