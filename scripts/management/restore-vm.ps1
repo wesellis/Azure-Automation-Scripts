@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Restore VM script`n`nparam (`n[string]$ResourceGroupName,`n[string]$VaultName,`n[string]$VmName,`n[string]$RestorePoint`n)`n`nRestore-AzVM -ResourceGroupName $ResourceGroupName -VaultName $VaultName -Name $VmName -RestorePoint $RestorePoint

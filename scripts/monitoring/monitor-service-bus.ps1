@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Monitor Service Bus script`n`nparam (`n[string]$ResourceGroupName,`n[string]$NamespaceName`n)`n`nGet-AzServiceBusNamespace -ResourceGroupName $ResourceGroupName -Name $NamespaceName

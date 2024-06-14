@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Update Function App script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName,`n[string]$PlanName`n)`n`nSet-AzFunctionApp -ResourceGroupName $ResourceGroupName -Name $AppName -AppServicePlan $PlanName

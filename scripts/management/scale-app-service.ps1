@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Scale App Service script`n`nparam (`n[string]$ResourceGroupName,`n[string]$PlanName,`n[int]$InstanceCount`n)`n`nSet-AzAppServicePlan -ResourceGroupName $ResourceGroupName -Name $PlanName -NumberofWorkers $InstanceCount

@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an Azure Event Grid Topic`n`nparam (`n[string]$ResourceGroupName,`n[string]$TopicName,`n[string]$Location`n)`n`nNew-AzEventGridTopic -ResourceGroupName $ResourceGroupName -Name $TopicName -Location $Location

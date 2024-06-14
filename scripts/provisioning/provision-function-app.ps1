@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an Azure Function App`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName,`n[string]$PlanName,`n[string]$Location`n)`n`nNew-AzFunctionApp -ResourceGroupName $ResourceGroupName -Name $AppName -AppServicePlan $PlanName -Location $Location

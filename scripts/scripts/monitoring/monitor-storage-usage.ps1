@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Storage Usage script
