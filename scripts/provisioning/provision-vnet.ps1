@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision a Virtual Network`n`nparam (`n[string]$ResourceGroupName,`n[string]$VnetName,`n[string]$AddressPrefix,`n[string]$Location`n)`n`nNew-AzVirtualNetwork -ResourceGroupName $ResourceGroupName -Location $Location -Name $VnetName -AddressPrefix $AddressPrefix

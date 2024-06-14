@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Provision an AKS Cluster`n`nparam (`n[string]$ResourceGroupName,`n[string]$AksClusterName,`n[string]$NodeCount,`n[string]$Location`n)`n`nNew-AzAksCluster -ResourceGroupName $ResourceGroupName -Name $AksClusterName -AgentCount $NodeCount -Location $Location

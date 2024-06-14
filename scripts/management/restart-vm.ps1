@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Restart VM script
