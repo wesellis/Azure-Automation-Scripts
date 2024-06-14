@@ -1,0 +1,1 @@
+#!/usr/bin/env pwsh`n# Monitor VM Status script
