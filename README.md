@@ -39,7 +39,6 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **provision-vnet.ps1**: Script to provision a new virtual network in Azure.
 - **provision-aks-cluster.ps1**: Script to provision a new AKS cluster in Azure.
 - **provision-sql-database.ps1**: Script to provision a new Azure SQL Database.
-<<<<<<< HEAD
 - **provision-app-service.ps1**: Script to provision a new Azure App Service.
 - **provision-cosmosdb.ps1**: Script to provision a new Azure Cosmos DB Account.
 - **provision-key-vault.ps1**: Script to provision a new Azure Key Vault.
@@ -48,8 +47,12 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **provision-function-app.ps1**: Script to provision a new Azure Function App.
 - **provision-service-bus.ps1**: Script to provision a new Azure Service Bus.
 - **provision-event-grid.ps1**: Script to provision a new Azure Event Grid Topic.
-=======
->>>>>>> d8f788a (Added new provisioning, management, and monitoring scripts)
+- **provision-dns-zone.ps1**: Script to provision an Azure DNS Zone.
+- **provision-container-instance.ps1**: Script to provision an Azure Container Instance.
+- **provision-application-gateway.ps1**: Script to provision an Azure Application Gateway.
+- **provision-data-factory.ps1**: Script to provision an Azure Data Factory.
+- **provision-batch-account.ps1**: Script to provision an Azure Batch Account.
+- **provision-ml-workspace.ps1**: Script to provision an Azure Machine Learning Workspace.
 
 ### Management
 
@@ -58,7 +61,6 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **scale-vm.ps1**: Script to scale an Azure virtual machine.
 - **restart-vm.ps1**: Script to restart an Azure virtual machine.
 - **update-vm.ps1**: Script to update an Azure virtual machine.
-<<<<<<< HEAD
 - **delete-vm.ps1**: Script to delete an Azure virtual machine.
 - **resize-disk.ps1**: Script to resize a disk in Azure.
 - **create-snapshot.ps1**: Script to create a snapshot of a disk in Azure.
@@ -67,8 +69,12 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **reboot-web-app.ps1**: Script to reboot an Azure Web App.
 - **scale-app-service.ps1**: Script to scale an Azure App Service.
 - **update-function-app.ps1**: Script to update an Azure Function App.
-=======
->>>>>>> d8f788a (Added new provisioning, management, and monitoring scripts)
+- **update-dns-record.ps1**: Script to update a DNS Record.
+- **clear-storage-blob.ps1**: Script to clear storage blobs.
+- **restart-aks-node.ps1**: Script to restart an AKS node.
+- **update-app-gateway.ps1**: Script to update an Azure Application Gateway.
+- **manage-automation-account.ps1**: Script to manage an Azure Automation Account.
+- **manage-load-balancer.ps1**: Script to manage an Azure Load Balancer.
 
 ### Monitoring
 
@@ -76,7 +82,6 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **monitor-storage-usage.ps1**: Script to monitor storage account usage.
 - **monitor-aks-status.ps1**: Script to monitor the status of an AKS cluster.
 - **monitor-sql-database.ps1**: Script to monitor an Azure SQL Database.
-<<<<<<< HEAD
 - **monitor-app-service.ps1**: Script to monitor an Azure App Service.
 - **monitor-key-vault.ps1**: Script to monitor an Azure Key Vault.
 - **monitor-redis-cache.ps1**: Script to monitor an Azure Redis Cache.
@@ -84,8 +89,12 @@ This repository contains a variety of PowerShell and CLI scripts to help automat
 - **monitor-function-app.ps1**: Script to monitor an Azure Function App.
 - **monitor-service-bus.ps1**: Script to monitor an Azure Service Bus.
 - **monitor-event-grid.ps1**: Script to monitor an Azure Event Grid Topic.
-=======
->>>>>>> d8f788a (Added new provisioning, management, and monitoring scripts)
+- **monitor-dns-zone.ps1**: Script to monitor an Azure DNS Zone.
+- **monitor-container-instance.ps1**: Script to monitor an Azure Container Instance.
+- **monitor-application-gateway.ps1**: Script to monitor an Azure Application Gateway.
+- **monitor-data-factory.ps1**: Script to monitor an Azure Data Factory.
+- **monitor-batch-account.ps1**: Script to monitor an Azure Batch Account.
+- **monitor-ml-workspace.ps1**: Script to monitor an Azure Machine Learning Workspace.
 
 ## Contributing
 
