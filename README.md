@@ -204,11 +204,7 @@ This collection contains **112 professionally enhanced Azure automation scripts*
 
 **Wesley Ellis**  
 📧 Email: wes@wesellis.com  
-<<<<<<< HEAD:README.md
 🌐 Website: wesellis.com
-=======
-🌐 Website: wesellis.com  
->>>>>>> 37dd711e9bf20eb9d0b0ad38da7ab0f3cda25fe6:scripts/README.md
 
 ---
 
