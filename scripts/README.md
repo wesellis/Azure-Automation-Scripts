@@ -205,7 +205,6 @@ This collection contains **112 professionally enhanced Azure automation scripts*
 **Wesley Ellis**  
 📧 Email: wes@wesellis.com  
 🌐 Website: wesellis.com  
-🏢 Company: CompuCom Systems Inc.  
 
 ---
 
