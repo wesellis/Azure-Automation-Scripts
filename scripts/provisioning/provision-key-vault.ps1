@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Key Vault`n`nparam (`n[string]$ResourceGroupName,`n[string]$VaultName,`n[string]$Location`n)`n`nNew-AzKeyVault -ResourceGroupName $ResourceGroupName -VaultName $VaultName -Location $Location

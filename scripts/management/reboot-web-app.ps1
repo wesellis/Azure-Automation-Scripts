@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Reboot Web App script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName`n)`n`nRestart-AzWebApp -ResourceGroupName $ResourceGroupName -Name $AppName

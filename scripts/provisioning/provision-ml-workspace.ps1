@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Machine Learning Workspace`n`nparam (`n[string]$ResourceGroupName,`n[string]$WorkspaceName,`n[string]$Location`n)`n`nNew-AzMLWorkspace -ResourceGroupName $ResourceGroupName -Name $WorkspaceName -Location $Location

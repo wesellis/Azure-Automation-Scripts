@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Container Instance`n`nparam (`n[string]$ResourceGroupName,`n[string]$ContainerGroupName,`n[string]$Image,`n[string]$Location`n)`n`nNew-AzContainerGroup -ResourceGroupName $ResourceGroupName -Name $ContainerGroupName -Image $Image -Location $Location -OsType Linux

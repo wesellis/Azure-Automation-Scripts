@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor DNS Zone script`n`nparam (`n[string]$ResourceGroupName,`n[string]$ZoneName`n)`n`nGet-AzDnsZone -ResourceGroupName $ResourceGroupName -Name $ZoneName

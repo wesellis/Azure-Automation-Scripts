@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Redis Cache`n`nparam (`n[string]$ResourceGroupName,`n[string]$CacheName,`n[string]$Location`n)`n`nNew-AzRedisCache -ResourceGroupName $ResourceGroupName -Name $CacheName -Location $Location -SkuName "Standard" -SkuFamily "C" -SkuCapacity 1

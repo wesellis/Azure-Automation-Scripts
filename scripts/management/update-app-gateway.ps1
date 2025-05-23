@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Update Application Gateway script`n`nparam (`n[string]$ResourceGroupName,`n[string]$GatewayName,`n[string]$Setting`n)`n`nSet-AzApplicationGateway -ResourceGroupName $ResourceGroupName -Name $GatewayName -Setting $Setting

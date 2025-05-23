@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Resize Disk script`n`nparam (`n[string]$ResourceGroupName,`n[string]$VmName,`n[string]$DiskName,`n[int]$NewSizeGB`n)`n`nUpdate-AzDisk -ResourceGroupName $ResourceGroupName -DiskName $DiskName -DiskSizeGB $NewSizeGB

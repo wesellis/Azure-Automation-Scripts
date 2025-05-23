@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Manage Automation Account script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AccountName`n)`n`nGet-AzAutomationAccount -ResourceGroupName $ResourceGroupName -Name $AccountName

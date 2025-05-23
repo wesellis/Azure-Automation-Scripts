@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Redis Cache script`n`nparam (`n[string]$ResourceGroupName,`n[string]$CacheName`n)`n`nGet-AzRedisCache -ResourceGroupName $ResourceGroupName -Name $CacheName

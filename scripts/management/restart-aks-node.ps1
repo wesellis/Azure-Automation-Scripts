@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Restart AKS Node script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AksClusterName,`n[string]$NodeName`n)`n`nRestart-AzAksNode -ResourceGroupName $ResourceGroupName -Name $AksClusterName -NodeName $NodeName

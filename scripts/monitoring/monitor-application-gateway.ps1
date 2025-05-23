@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Application Gateway script`n`nparam (`n[string]$ResourceGroupName,`n[string]$GatewayName`n)`n`nGet-AzApplicationGateway -ResourceGroupName $ResourceGroupName -Name $GatewayName

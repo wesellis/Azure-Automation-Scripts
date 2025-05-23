@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Container Instance script`n`nparam (`n[string]$ResourceGroupName,`n[string]$ContainerGroupName`n)`n`nGet-AzContainerGroup -ResourceGroupName $ResourceGroupName -Name $ContainerGroupName

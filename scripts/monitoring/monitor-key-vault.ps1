@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Key Vault script`n`nparam (`n[string]$ResourceGroupName,`n[string]$VaultName`n)`n`nGet-AzKeyVault -ResourceGroupName $ResourceGroupName -VaultName $VaultName

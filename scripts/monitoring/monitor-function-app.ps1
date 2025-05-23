@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Function App script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName`n)`n`nGet-AzFunctionApp -ResourceGroupName $ResourceGroupName -Name $AppName

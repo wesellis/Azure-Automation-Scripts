@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Event Grid Topic script`n`nparam (`n[string]$ResourceGroupName,`n[string]$TopicName`n)`n`nGet-AzEventGridTopic -ResourceGroupName $ResourceGroupName -Name $TopicName

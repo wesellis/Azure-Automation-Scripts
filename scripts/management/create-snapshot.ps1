@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Create Snapshot script`n`nparam (`n[string]$ResourceGroupName,`n[string]$SnapshotName,`n[string]$DiskName,`n[string]$Location`n)`n`nNew-AzSnapshot -ResourceGroupName $ResourceGroupName -SnapshotName $SnapshotName -SourceUri (Get-AzDisk -ResourceGroupName $ResourceGroupName -DiskName $DiskName).Id -Location $Location

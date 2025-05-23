@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure App Service`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName,`n[string]$PlanName,`n[string]$Location`n)`n`nNew-AzWebApp -ResourceGroupName $ResourceGroupName -Name $AppName -AppServicePlan $PlanName -Location $Location

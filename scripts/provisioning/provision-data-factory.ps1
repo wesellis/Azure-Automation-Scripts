@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Data Factory`n`nparam (`n[string]$ResourceGroupName,`n[string]$FactoryName,`n[string]$Location`n)`n`nNew-AzDataFactoryV2 -ResourceGroupName $ResourceGroupName -Name $FactoryName -Location $Location

@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Backup VM script`n`nparam (`n[string]$ResourceGroupName,`n[string]$VaultName,`n[string]$VmName`n)`n`nBackup-AzVM -ResourceGroupName $ResourceGroupName -VaultName $VaultName -Name $VmName

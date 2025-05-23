@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Scale VM script

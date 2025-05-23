@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Machine Learning Workspace script`n`nparam (`n[string]$ResourceGroupName,`n[string]$WorkspaceName`n)`n`nGet-AzMLWorkspace -ResourceGroupName $ResourceGroupName -Name $WorkspaceName

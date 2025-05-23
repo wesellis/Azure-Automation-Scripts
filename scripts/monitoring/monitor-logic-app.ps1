@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Monitor Logic App script`n`nparam (`n[string]$ResourceGroupName,`n[string]$AppName`n)`n`nGet-AzLogicApp -ResourceGroupName $ResourceGroupName -Name $AppName

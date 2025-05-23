@@ -1,1 +1,0 @@
-#!/usr/bin/env pwsh`n# Provision an Azure Service Bus`n`nparam (`n[string]$ResourceGroupName,`n[string]$NamespaceName,`n[string]$Location`n)`n`nNew-AzServiceBusNamespace -ResourceGroupName $ResourceGroupName -Name $NamespaceName -Location $Location -SkuName "Standard"
